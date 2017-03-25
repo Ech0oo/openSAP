@@ -1,7 +1,8 @@
 <mvc:View
     displayBlock="true"
     xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
+    xmlns="sap.m"
+    controllerName="myapp.controller.App">
     <Carousel>
         <pages>
             <Image src="http://keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg" height="400px" />
