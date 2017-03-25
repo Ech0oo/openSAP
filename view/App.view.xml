@@ -1,0 +1,13 @@
+<mvc:View
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Carousel>
+        <pages>
+            <Image src="http://keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg" height="400px" />
+            <Image src="http://keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg" height="400px" />
+            <Image src="http://keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg" height="400px" />
+        </pages>
+    </Carousel>
+    <Button text="Button works" press="onPressButton" />
+</mvc:View>

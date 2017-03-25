@@ -1,0 +1,23 @@
+{
+  "name": "openSAP",
+  "version": "1.0.0",
+  "description": "Open SAP excises, web app with SAPUI5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ech0oo/openSAP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ech0oo/openSAP/issues"
+  },
+  "homepage": "https://github.com/Ech0oo/openSAP#readme",
+  "devDependencies": {
+    "express": "^4.15.2"
+  }
+}
