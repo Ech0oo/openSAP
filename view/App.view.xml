@@ -11,4 +11,9 @@
         </pages>
     </Carousel>
     <Button text="Button works" press="onPressButton" />
+    <Input
+        value="{helloPanel>/recipient/name}"
+        description="Hello {helloPanel>/recipient/name}"
+        valueLiveUpdate="true"
+        width="60%" />
 </mvc:View>
