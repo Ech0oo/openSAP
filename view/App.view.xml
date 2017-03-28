@@ -10,7 +10,7 @@
             <Image src="http://keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg" height="400px" />
         </pages>
     </Carousel>
-    <Button text="Button works" press="onPressButton" />
+    <Button text="{i18n>showHelloButtonText}" press="onPressButton" />
     <Input
         value="{helloPanel>/recipient/name}"
         description="Hello {helloPanel>/recipient/name}"
