@@ -10,7 +10,7 @@ sap.ui.define(
                                var oBundle = this.getView().getModel("i18n").getResourceBundle();
                                var sWord = this.getView().getModel("helloPanel").getProperty("/recipient/name");
                                var sMsg = oBundle.getText("helloMsg", [sWord]);
-                               MessageToast.show(sMsg);
+                               MessageToast.show("Button click");
                            }
         });
 });
